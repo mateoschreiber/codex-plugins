@@ -1,0 +1,37 @@
+{
+  "name": "low-resource-server-optimizer",
+  "version": "1.0.0",
+  "description": "Skill para auditar y optimizar servidores Linux/Docker de bajos recursos sin detener, eliminar ni modificar apps en ejecución.",
+  "author": {
+    "name": "Mateo Schreiber"
+  },
+  "repository": "https://github.com/mateoschreiber/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "linux",
+    "ubuntu",
+    "docker",
+    "compose",
+    "homelab",
+    "optimization",
+    "low-resource",
+    "server"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Low Resource Server Optimizer",
+    "shortDescription": "Optimiza servidores de bajos recursos sin tocar apps corriendo.",
+    "longDescription": "Flujo seguro y conciso para diagnosticar CPU, RAM, disco, logs, Docker, systemd y backups en servidores Linux de bajos recursos. Prioriza acciones no destructivas, no reinicia ni elimina apps, valida antes de cambiar y entrega métricas antes/después con rollback.",
+    "developerName": "Mateo Schreiber",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Usa Low Resource Server Optimizer para auditar y optimizar este servidor de bajos recursos sin tocar apps en ejecución.",
+      "Optimiza este servidor Linux/Docker de forma segura: diagnóstico, acciones no destructivas, métricas antes/después y rollback."
+    ],
+    "brandColor": "#16A34A"
+  }
+}
