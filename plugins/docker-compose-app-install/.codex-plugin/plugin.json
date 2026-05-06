@@ -1,0 +1,35 @@
+{
+  "name": "docker-compose-app-install",
+  "version": "1.0.0",
+  "description": "Reusable Codex skill for safely installing new self-hosted apps into an existing Docker Compose stack without touching unrelated services.",
+  "author": {
+    "name": "Mateo Schreiber"
+  },
+  "repository": "https://github.com/mateoschreiber/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "docker",
+    "compose",
+    "self-hosted",
+    "homelab",
+    "deployment",
+    "server"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Docker Compose App Install",
+    "shortDescription": "Safely install new apps into an existing Docker Compose stack.",
+    "longDescription": "Adds a reusable Codex workflow for installing self-hosted applications into an existing Docker Compose stack with backup, validation, no global restarts, persistent volumes, reverse proxy detection, resource optimization, and rollback.",
+    "developerName": "Mateo Schreiber",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Docker Compose App Install to add a new self-hosted app into the current compose stack without touching unrelated services.",
+      "Install the requested app into this existing docker-compose.yml with backups, validation, persistent volumes, and rollback."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
