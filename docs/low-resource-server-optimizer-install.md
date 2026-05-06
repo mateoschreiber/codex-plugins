@@ -73,7 +73,7 @@ codex
 Luego:
 
 ```text
-/ plugins
+/plugins
 ```
 
 Instalar:
