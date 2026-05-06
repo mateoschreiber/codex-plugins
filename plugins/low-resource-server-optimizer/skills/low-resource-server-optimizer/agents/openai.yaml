@@ -1,0 +1,7 @@
+interface:
+  display_name: "Low Resource Server Optimizer"
+  short_description: "Optimiza servidores de bajos recursos sin tocar apps corriendo."
+  brand_color: "#16A34A"
+  default_prompt: "Optimiza este servidor de bajos recursos sin detener, eliminar ni modificar apps en ejecución."
+policy:
+  allow_implicit_invocation: true
